@@ -25,12 +25,12 @@ const About = () => {
                         <p class="mb-2" style={{ fontSize: '18px' }}>{home?.about_gym_p_1}</p>
                         <p class="mb-2" style={{ fontSize: '18px' }}>{home?.about_gym_p_2}</p>
                         <div class="app-icons">
-                            <a href="https://apps.apple.com/app/id1551353775">
+                            <a href="https://apps.apple.com/in/app/kasrat-member/id6479953019">
                                 <img class="apple"
                                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
                                     alt="Download on the App Store" />
                             </a>
-                            <a href='https://play.google.com/store/apps/details?id=com.stagescycling.stages'>
+                            <a href='https://play.google.com/store/apps/details?id=com.kasrat.kasratmember'>
                                 <img class="android" alt='Get it on Google Play' src={playIcon}
                                     width="150" />
                             </a>
