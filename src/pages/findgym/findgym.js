@@ -45,7 +45,6 @@ const FindGym = () => {
     if (searchResults.length === 0) {
       return (
         <div class="row">
-          <p>hello</p>
           {!gym1 ? (
             <h1> </h1>
           ) : (
