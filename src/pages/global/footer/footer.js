@@ -11,7 +11,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { AuthContext } from "../../../context/AuthContext";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   const { data } = useContext(AuthContext);
@@ -61,27 +61,10 @@ const Footer = () => {
           </div>
           <div class="col-md-6 col-lg-4 wow fadeInRight">
             <div class="d2c_footer_newsletter">
-              <h5>Newsletter</h5>
-              <form class="needs-validation" novalidate>
-                <div class="input-group " style={{ alignItems: "center" }}>
-                  <input
-                    style={{
-                      height: "35px",
-                      color: "black !important",
-                      backgroundColor: "#3B2E5D",
-                    }}
-                    type="email"
-                    class="form-control"
-                    placeholder="input your email:"
-                    aria-describedby="newsletter_btn"
-                    autocomplete="on"
-                    required
-                  />
-                  <button class="btn1" type="submit" id="newsletter_btn">
-                    <FontAwesomeIcon icon={faPaperPlane} />
-                  </button>
-                </div>
-              </form>
+              <h5>Company</h5>
+              <Link to="/Terms" style={{textDecoration:"none" , color:"white"}} lass="mb-0">Terms Of Service</Link><br />
+              <Link  to="/PrivacyPolicy" style={{textDecoration:"none" , color:"white"}} lass="mb-0">Privacy Policy</Link>
+
             </div>
           </div>
         </div>
