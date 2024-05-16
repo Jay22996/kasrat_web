@@ -1174,6 +1174,34 @@ progress {
     }
 }
 
+@media (min-width: 1200px) {
+    .col-md-4 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 1000px) {
+    .col-md-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 20px;
+
+    }
+  }
+  
+  @media (max-width: 999px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+
+    }
+  }
+
+
+
 @media (min-width:768px) {
     .col-md {
         flex: 1 0 0%
@@ -1234,11 +1262,11 @@ progress {
         width: 25%
     }
 
-    .col-md-4 {
+    /* .col-md-4 {
         flex: 0 0 auto;
-        width: 33.33333333%;
+        width: 33.33%;
         padding: 5px
-    }
+    } */
 
     .col-md-5 {
         flex: 0 0 auto;

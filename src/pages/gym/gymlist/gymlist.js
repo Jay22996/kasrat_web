@@ -35,7 +35,7 @@ const GymList = () => {
               gym1.slice(0, 3).map((el)=>{
                   return(
                       <div class="col-md-4">
-                      <div class="card p-3" style={{height:"220px"}}>
+                      <div class="card p-3 position-relative" style={{height:"220px"}}>
                         <div class="d-flex flex-row mb-3">
                           <img
                             src={el.profile_photo}
