@@ -5,7 +5,7 @@ const TermsOfService = () => {
 
     const { data } = useContext(AuthContext);
     const home = data?.data?.data;
-    console.log(home);
+    // console.log(home);
   return (
     <div className="terms-container" style={{margin:"40px"}}>
       <h1>Terms of Service</h1>

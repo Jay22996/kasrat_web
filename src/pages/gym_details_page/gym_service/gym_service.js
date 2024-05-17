@@ -13,7 +13,7 @@ const GymService = (props) => {
                         <p style={{fontSize: '18px' }}>{data?.about_gym_p4}</p>
                         <div class="row d2c_progress">
                             {!services?(
-                                <h1></h1>
+                            <h1> </h1>
                             ):(
                                 services.map((el)=>{
                                     return(

@@ -35,7 +35,7 @@ const About = () => {
                                     width="150" />
                             </a>
                         </div>
-                        <h5></h5>
+                        <h5> </h5>
                         <p style={{fontSize: '17px',marginBottom:"17px" }}>{home?.about_gym_p_3}</p>
                 <NavLink className="btn1"  style={{margin:"0px"}} to="/gymregisterform">Register gym</NavLink>
                     </div>

@@ -30,7 +30,7 @@ const GymList = () => {
         <div class="mt-5" style={{ paddingBottom: "20px" }}>
           <div class="row">
           {  !gym1 ? (
-            <h1> </h1>
+                   <h1> </h1>
           ):(
               gym1.slice(0, 3).map((el)=>{
                   return(

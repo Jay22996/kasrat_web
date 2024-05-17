@@ -12,7 +12,7 @@ const GymPhotos = (props) => {
         <p style={{ fontSize: "19px" }}>{data?.about_gym_photo_p}</p>
         <div class="row">
           {!photos? (
-            <h1> </h1>
+                   <h1> </h1>
           ) : (
             photos.map((el) => {
               return (

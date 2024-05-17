@@ -16,6 +16,7 @@ import Fourzerofour from "./pages/error_page/404";
 import Maintenance from "./pages/error_page/maintenance";
 import PrivacyPolicyPage from "./pages/polices/PrivacyPolicyPage";
 import TermsOfService from "./pages/polices/ts";
+import Gymserch from "./pages/findgym/Gymserch";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -49,6 +50,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/aboutus" element={<AboutUsPage />} />
                     <Route path="/findgym" element={<FindGym />} />
+                    <Route path="/findgym/:id" element={<Gymserch />} />
                     <Route path="/registergym" element={<RegisterGymPage />} />
                     <Route path="/contactus" element={<ContactUsPage />} />
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicyPage />} />

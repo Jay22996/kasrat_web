@@ -57,7 +57,7 @@ const GymTrainer = (props) => {
         <div className="row">
           <Slider {...settings}>
             {!gym_trainers?(
-              <h1> </h1>
+                      <h1> </h1>
             ):(
               gym_trainers?.map((el)=>{
                 return(

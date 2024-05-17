@@ -16,7 +16,7 @@ const Gallary = () => {
         <p style={{ fontSize: "18px"}}>{home?.vibrant_teg2}</p>
         <div className="row" style={{ paddingBottom: "25px", marginTop:"50px"}}>
           {!photo ? (
-            <h1> </h1>
+                   <h1> </h1>
           ) : (
             photo.map((el, index) => (
               <div key={index} className="col-md-6 col-lg-4 mb-4 wow fadeInLeft">

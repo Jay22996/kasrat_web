@@ -1,13 +1,11 @@
 import React, { useContext } from "react";
 import "../../../assets/css/style.css";
 import "../../../assets/css/responsive.css";
-import logo from "../../../assets/images/logoBg.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faLocationDot,
-  faPaperPlane,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { AuthContext } from "../../../context/AuthContext";
