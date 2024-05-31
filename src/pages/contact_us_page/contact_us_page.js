@@ -5,7 +5,7 @@ import { AuthContext } from '../../context/AuthContext';
 import axios from 'axios';
 const ContactUsPage = () => {
     const { data } = useContext(AuthContext);
-    var baseurl = "https://node-test-1avh.onrender.com";
+    var baseurl = "https://kasrat-gym.onrender.com";
 
     const [formData, setFormData] = useState({
         name: "",

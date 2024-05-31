@@ -14,7 +14,7 @@ const GymInquiryForm = () => {
   const { id } = useParams();
   const { data } = useContext(AuthContext);
   const home = data?.data?.data;
-  var baseurl = "https://node-test-1avh.onrender.com";
+  var baseurl = "https://kasrat-gym.onrender.com";
 
   const [data1, setdata1] = useState("");
   useEffect(() => {

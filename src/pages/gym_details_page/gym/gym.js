@@ -11,7 +11,7 @@ import axios from "axios";
 
 const GymIntro = () => {
     const {id} = useParams();
-    var baseurl = "https://node-test-1avh.onrender.com"
+    var baseurl = "https://kasrat-gym.onrender.com"
 
     const [data,setdata] = useState("")
     useEffect(() => {

@@ -4,7 +4,7 @@ import { createContext, useEffect, useState} from "react";
 export const AuthContext = createContext();
 
 export const AuthContextProvider = ({ children }) => {
-    var baseurl = "https://node-test-1avh.onrender.com"
+    var baseurl = "https://kasrat-gym.onrender.com"
 
     const [data,setdata] = useState("")
 

@@ -12,7 +12,7 @@ const GymRegisterForm = () => {
 
   const home = data?.data?.data;
   // console.log(home);
-  var baseurl = "https://node-test-1avh.onrender.com";
+  var baseurl = "https://kasrat-gym.onrender.com";
 
   const [formData, setFormData] = useState({
     gym_name: "",
