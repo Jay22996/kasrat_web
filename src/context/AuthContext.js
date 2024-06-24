@@ -10,7 +10,7 @@ export const AuthContextProvider = ({ children }) => {
 
     useEffect(() => {
         axios
-          .get(`${baseurl}/website`)
+          .get(`${baseurl}/forkasrat`)
           .then(function (response) {
             setdata(response);
           })

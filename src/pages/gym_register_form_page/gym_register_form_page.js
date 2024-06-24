@@ -48,7 +48,7 @@ const GymRegisterForm = () => {
       }
 
       await axios
-        .post(`${baseurl}/inquiry/inquiry`, formData)
+        .post(`${baseurl}/forkasrat/inquiry`, formData)
         .then(function (response) {
           if (response.data.status === "done") {
             setFormData({

@@ -67,7 +67,7 @@ const GymInquiryForm = () => {
       }
 
       await axios
-      .post (`${baseurl}/inquiry/inquirysend/${gymid}`, formData)
+      .post (`${baseurl}/request/inquirysend/${gymid}`, formData)
       .then(function (response) {
           if(response.data.status === "inquiry send"){
             setFormData({

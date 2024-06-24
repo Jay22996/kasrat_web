@@ -39,7 +39,7 @@ const ContactUsPage = () => {
           }
     
           await axios
-          .post (`${baseurl}/inquiry/contact`,formData)
+          .post (`${baseurl}/forkasrat/contact`,formData)
           .then(function (response) {
               if(response.data.status === "done"){
                 setFormData({
